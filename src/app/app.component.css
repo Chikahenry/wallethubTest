@@ -76,6 +76,11 @@
 
 }
 
+hr.line { 
+    border: 1px solid rgb(7, 8, 7);
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .pointer {
     cursor: pointer;
 }
@@ -160,5 +165,11 @@
     .marginX5 {
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    hr.line { 
+        border: 1px solid rgb(7, 8, 7);
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
