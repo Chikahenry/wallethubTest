@@ -1,0 +1,164 @@
+.violet-bg{
+    background-color: rgb(24, 3, 63);
+    width: 100%;
+    height: 40px;
+}
+
+.navbar {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-text {
+    padding: 10px 20px;
+}
+
+.bg-img { 
+    background-repeat: no-repeat;
+    height: 720px;
+    border: 1px solid rgba(223, 228, 229, 0.5);
+    background :  url(../assets/image/wallet1.jpg); 
+  }
+
+.white-heading {
+    font-size: 135px !important;
+    margin-top: 60px;
+    margin-left: 70px !important;
+    font-weight: bolder;
+}
+
+.bg-lightgrey {
+    background-color: rgba(247, 244, 244, 0.76);
+}
+
+.main-content{ 
+    margin: 50px;
+}
+.credit {
+    font-size: 25px;
+    font-weight: bolder ;
+}
+
+.card {
+    padding: 40px;
+}
+
+.barclaycard {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.text-lightblue {
+    color: rgb(97, 205, 241);
+}
+
+.btn-lightblue {
+    color: white;
+    border-radius: 25px;
+    width: 140px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(97, 205, 241);
+}
+
+.points {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.marginX5 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.atm {
+
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.applybtn {
+    color: white;
+    border-radius: 5px; 
+    font-size: 18px;
+    width: 100%;
+    font-weight: 700;
+    background-color: rgb(226, 83, 17);
+}
+
+
+
+
+@media (max-width: 576px) {
+    .navbar {
+        font-size: 15px !important;
+        font-weight: bolder;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .navigation {
+        display: none;
+    }
+    .nav-text {
+        padding: 10px 0px;
+    }
+    .bg-img { 
+        background-repeat: no-repeat;
+        height: 450px;
+        border: 1px solid rgba(223, 228, 229, 0.5);
+        background :  url(../assets/image/wallet2.PNG); 
+      }
+
+      .white-heading {
+        font-size: 65px !important;
+        margin-top: 40px;
+        margin-left: 40px !important;
+        font-weight: bolder;
+    }
+
+    .main-content{ 
+        margin: 0px;
+    }
+
+    .card {
+        margin-left: -40px !important;
+        margin-right: -40px !important;
+        padding-left: 0px !important;
+
+    }
+    .reviews {
+        display: none;
+    }
+
+    .barclaycard {
+        font-size: 22px;
+        font-weight: 600;
+    }
+     
+    .btn-lightblue {
+        color: white;
+        border-radius: 25px;
+        width: 130px;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: rgb(97, 205, 241);
+    }
+    
+    .points {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .atm {
+        width: 200px;
+        height: auto;
+    }
+
+    .marginX5 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
